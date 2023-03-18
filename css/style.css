@@ -35,3 +35,24 @@ h1 {
    
     
 }
+.relative1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation: boxmove 5s infinite;
+    animation-duration:alternate; 
+}
+
+@keyframes boxmove {
+   0%{
+        left:0px;
+    }
+    50% {
+        left: 500px;background-color: blue; width: 400px;
+
+    }
+   100% { 
+        left:0px;
+    }
+}
