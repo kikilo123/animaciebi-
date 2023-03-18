@@ -1,0 +1,37 @@
+.conatiner{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+   
+ 
+}
+.absolut {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% ) skew(20deg);
+
+    }
+h1 {
+    color:white;
+    font-size: 25px;
+}
+.relative:hover {
+    background-color: black;
+    transform: translate(500px);
+   
+    
+}
